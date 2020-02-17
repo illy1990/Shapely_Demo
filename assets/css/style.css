@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+header h1{
+    color:#666;
+    margin: 0 50px;
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 30px;
+    text-transform: capitalize;
+}
+
+header ul li a{
+    color:#333;
+    text-decoration: none;
+    }
