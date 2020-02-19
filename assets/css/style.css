@@ -51,7 +51,7 @@ header ul li a:hover{
 
 
 /* MAIN-Page 1 */
-main #First_page{
+main #Main-page-1{
     height: 95vh;
     width: 100%;
     background: url(https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
@@ -62,24 +62,24 @@ main #First_page{
     text-align: center;
 }
 
-#First_page-article1 h2{
+#Main-page-1 h2{
     color: white;
     font-size: 50px;
 }
 
-#First_page-article1 p{
+#Main-page-1 p{
     color: white;
     font-size: 16px;
 }
 
-#First_page_article1-button-divider{
+#Main-page-1_article1-button-divider{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 35px;}
 
-#First_page-article1-div1 a{
+#Main-page-1-article1-div1 a{
     color: white;
     border: 2px solid white;
     padding: 15px 30px;
@@ -88,7 +88,7 @@ main #First_page{
     text-decoration: none;
 }
 
-#First_page-article1-div2 a{
+#Main-page-1-article1-div2 a{
     color: white;
     border: 2px solid #745cf9;
     background-color: #745cf9;
@@ -108,3 +108,128 @@ main #First_page{
     text-decoration: none;
 }
 
+
+/* MAIN-Page 2 SEO FRIENDLY*/
+#Main-page-2{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#Main-page-2-article1 img{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#Main-page-2-article2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#Main-page-2-article2 h2{
+    font-size: 2em;
+    font-weight: lighter;
+    color:#0e1015;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+#Main-page-2-article2 p{
+    font-size: 1em;
+    font-weight: lighter;
+    color:#8c979e;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.5em;
+    width: 75%;
+}
+
+#Main-page-2-article2 div a{
+    text-decoration: none;
+    color: white;
+    background-color:#745cf9;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px 30px;
+}
+
+#Main-page-2-article2 div a:hover{
+    text-decoration: none;
+    color: white;
+    background-color:#5234f9;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px 30px;
+}
+
+/* MAIN-Page 3 Portfolio Section*/
+#Main-page-3{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color:#f5f5f5; 
+}
+
+#Main-page-3-article1 img{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#Main-page-3-article2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#Main-page-3-article2 h2{
+    font-size: 2em;
+    font-weight: lighter;
+    color:#0e1015;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+#Main-page-3-article2 p{
+    font-size: 1em;
+    font-weight: lighter;
+    color:#8c979e;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2.5em;
+    width: 75%;
+}
+
+#Main-page-3-article2 div a{
+    text-decoration: none;
+    color: white;
+    background-color:#745cf9;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px 30px;
+}
+
+#Main-page-3-article2 div a:hover{
+    text-decoration: none;
+    color: white;
+    background-color:#5234f9;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px 30px;
+}
